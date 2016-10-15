@@ -1,9 +1,9 @@
 package Kapitel9.Vererbung.ch.ibw.Interfaces.test;
 
-import ch.ibw.Interfaces.Interfacebase;
-import ch.ibw.abstractBase.test.KindInterface1;
-import ch.ibw.abstractBase.test.KindInterface2;
-import ch.ibw.abstractBase.test.KindInterface3;
+import Kapitel9.Vererbung.ch.ibw.Interfaces.Interfacebase;
+import Kapitel9.Vererbung.ch.ibw.abstractBase.test.KindInterface1;
+import Kapitel9.Vererbung.ch.ibw.abstractBase.test.KindInterface2;
+import Kapitel9.Vererbung.ch.ibw.abstractBase.test.KindInterface3;
 
 /**
  * Created by Moser Harry on 11.10.2016.

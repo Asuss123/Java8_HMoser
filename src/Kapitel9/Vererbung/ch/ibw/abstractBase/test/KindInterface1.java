@@ -1,6 +1,6 @@
 package Kapitel9.Vererbung.ch.ibw.abstractBase.test;
 
-import ch.ibw.Interfaces.Interfacebase;
+import Kapitel9.Vererbung.ch.ibw.Interfaces.Interfacebase;
 
 /**
  * Created by Moser Harry on 11.10.2016.
