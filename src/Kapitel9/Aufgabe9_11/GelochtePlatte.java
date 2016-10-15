@@ -10,7 +10,7 @@ public class GelochtePlatte extends MetallPlatte {
     private double lochBreite;
     private MetallPlatte[] loch;
 
-    public GelochtePlatte(double laenge, double breite, int anzahlLoecher, double lochLaenge, double lochBreite) {
+    public GelochtePlatte(double laenge, double breite, int anzahlLoecher) {
         super(laenge, breite);
         loch       = new MetallPlatte[anzahlLoecher];
         lochLaenge = laenge/anzahlLoecher/2;
