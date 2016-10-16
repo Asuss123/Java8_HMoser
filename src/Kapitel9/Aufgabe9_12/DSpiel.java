@@ -11,11 +11,18 @@ public class DSpiel {
     public static int zaehler = 1;
 
     public static void main(String[] args) {
+
+        DameFigur beute, jaeger;
+        char spalte;
+        int zeile;
+        String farbe;
+
+
         //**Eingabe Beute*/
         System.out.println("Positionieren sie die Beute");
-        char spalte  = IOTools.readChar  ("Spalte (A-H) ihrer Figur: ");
-        int zeile    = IOTools.readInt   ("Zeile (1-8) ihrer Figur : ");
-        String farbe = IOTools.readString("Farbe ihrer Figur       : ");
+        spalte = IOTools.readChar  ("Spalte (A-H) ihrer Figur: ");
+        zeile  = IOTools.readInt   ("Zeile (1-8) ihrer Figur : ");
+        farbe  = IOTools.readString("Farbe ihrer Figur       : ");
 
 
         /**Bildschirm wird mit statischer Methode, Bildschirm.löscher, gelöscht*/
@@ -26,18 +33,18 @@ public class DSpiel {
         System.out.println();
 
         /**Beute Objekt erzeugt*/
-        DameFigur beute = new DameFigur(spalte, zeile, farbe);
+        beute = new DameFigur(spalte, zeile, farbe);
 
         /**Eingabe Jaeger*/
         System.out.println();
         System.out.println("Die Beute steht. Positionieren sie den Jaeger");
         System.out.println("\n");
-        char    spalte1 =   IOTools.readChar  ("Spalte (A-H) ihrer Figur: ");
-        int     zeile1  =   IOTools.readInt   ("Zeile (1-8) ihrer Figur : ");
-        String  farbe1  =   IOTools.readString("Farbe ihrer Figur       : ");
+        spalte =   IOTools.readChar  ("Spalte (A-H) ihrer Figur: ");
+        zeile  =   IOTools.readInt   ("Zeile (1-8) ihrer Figur : ");
+        farbe  =   IOTools.readString("Farbe ihrer Figur       : ");
 
         /**Jaeger Objekt wird erzeugt*/
-        DameFigur jaeger = new DameFigur(spalte1, zeile1, farbe1);
+        jaeger = new DameFigur(spalte, zeile, farbe);
 
         //Position vom Jaeger Objekt wird ausgegeben
         System.out.println();

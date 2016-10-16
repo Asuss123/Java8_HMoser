@@ -22,7 +22,7 @@ public class DameFigur extends SpielFigur {
                 ziehen(0, anzahl);
                 break;
             case '\\':
-                ziehen(anzahl, anzahl);
+                ziehen(anzahl, -anzahl);
                 break;
             case'/':
                 ziehen(anzahl,anzahl);
@@ -30,8 +30,8 @@ public class DameFigur extends SpielFigur {
             default:
                 System.out.println("Warnung: Unzulässiges Zeichen");
         }
-
     }
+
     /*Methode zur Pruefung ob Jaeger Beute gefangen hat*/
     public boolean trifft(DameFigur andereFigur){
         return super.getxPos() == andereFigur.getxPos() && super.getyPos() == andereFigur.getyPos();
