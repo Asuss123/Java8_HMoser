@@ -85,7 +85,7 @@ public class DSpiel {
 
         }
 
-        /**While Schleife beendet Beute ict sieger*/
+        /**While Schleife beendet Beute ist Sieger*/
         System.out.println();
         System.out.println(beute);
         System.out.println("Beute hat gewonnen");
